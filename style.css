@@ -1,6 +1,7 @@
 body {
     background-color:bisque;
     margin: 0;
+    font-size: 16px;
 }
 
 /* Nav start */
@@ -35,6 +36,7 @@ li a:hover {
 #nachalo {
     height: auto;
     background-color: purple;
+    position: relative;
 
     /* background-image: url("./snimki/background\ head.jpg");
     background-repeat: no-repeat;
@@ -46,6 +48,25 @@ li a:hover {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.header-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.header-text h1 {
+    font-size: 10vmin;
+}
+
+.header-text p {
+    font-size: 3vmin;
 }
 
 /* header end */
