@@ -1,7 +1,9 @@
 body {
     background-color:bisque;
-    
+    margin: 0;
 }
+
+/* Nav start */
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,10 +28,27 @@ li a:hover {
     background-color: rgba(128, 128, 128, 0.308);
 }
 
+/* Nav end */
+
+
+/* header start */
 #nachalo {
-    height: 500px;
+    height: auto;
     background-color: purple;
+
+    /* background-image: url("./snimki/background\ head.jpg");
+    background-repeat: no-repeat;
+    background-size: auto auto; */
+    /* height: 300px; */
 }
+
+#nachalo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* header end */
 #interesno {
     height: 300px;
     background-color: blueviolet;
