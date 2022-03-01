@@ -13,7 +13,7 @@ ul {
     padding: 0;
     text-align: center;
     overflow: hidden;
-    background-color: rgb(186, 100, 127);
+    background-color: rgb(194, 124, 146);
 }
 
 ul li {
@@ -29,7 +29,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(156, 50, 82);
+    background-color: rgb(186, 100, 127);
 }
 
 /*----------------------------------- Nav end ----------------------------*/
@@ -69,7 +69,7 @@ li a:hover {
     font-size: 10vw;
     letter-spacing: 10px;
     line-height: 0.7;
-    color: rgb(186, 100, 127);
+    color: rgb(186, 100, 127); ;
     padding-left: 52%;
     padding-right: 9%;
     padding-top: 1%;
@@ -83,15 +83,15 @@ li a:hover {
 
 /*------------------------------------- header end ------------------------*/
 #interesno {
-    height: 320px;
-    background-color: rgb(186, 100, 127); 
+    height: auto;
+    padding: 1vw ;
+    background-color: rgb(194, 124, 146); 
     display: flex;
     justify-content: space-evenly;
     position: relative;
     box-sizing: border-box;
 }
 
-  /*4 koloni edna do dr */
 .column {
     width: 15%;
     height: auto;
@@ -103,14 +103,39 @@ li a:hover {
     object-fit: contain;
 }
   
-#reklama {
-    height: 300px;
-    background-color: pink;
-}
-#magazin {
-    height: 800px;
-    background-color: orchid;
-}
+
+
+#magazin ul {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: rgb(28, 66, 52 );
+    }
+    #magazin ul li {
+        display: inline-block;
+    }
+    /* need links added */
+    #magazin li {
+        padding: 10px;
+        display: block;
+        color: whitesmoke;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    #magazin li a:hover {
+        background-color: rgb(45, 87, 71);
+    }
+    /* need links added */
+    
+      
+    ;
+
+      
 #diy {
     height: 800px;
     background-color: blue;
